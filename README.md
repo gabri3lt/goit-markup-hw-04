@@ -1,1 +1,2 @@
-# goit_markup_hw-04
+# goit-markup-hw-01
+GOIT-kurs
