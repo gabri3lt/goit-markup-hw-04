@@ -7,6 +7,7 @@
   --color6: #2f303a;
   --color7: #afb1b8;
   --color8: #f5f4fa;
+  --color9: rgba(255, 255, 255, 0.1);
 }
 
 html {
@@ -74,7 +75,7 @@ h1 {
   max-width: 200px;
   margin-right: 33%;
   color: var(--color2);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 4px 4px var(--color2);
   /* margin-left: 215px; */
 }
 
@@ -158,8 +159,8 @@ h1 {
   background: var(--color3);
   /* shadow-middle */
 
-  box-shadow: 0px 3px 1px var(--color2) (0, 0, 0, 0.1),
-    0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px var(--color2) (0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px var(--color2), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px var(--color2);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -184,7 +185,7 @@ h1 {
   background: var(--color3);
   /* shadow-middle */
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px var(--color2var(--color2));
   border-radius: 4px;
   cursor: pointer;
 }
@@ -198,8 +199,8 @@ h1 {
 .click:focus {
   background-color: var(--color4);
   color: var(--color3);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px var(--color2var(--color2)),
+    0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px var(--color2var(--color2));
   border-radius: 4px;
 }
 
@@ -356,8 +357,8 @@ h1 {
   background: var(--color3);
 
   /* material shadow v1 */
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px var(--color2), 0px 1px 1px var(--color2),
+    0px 2px 1px var(--color2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -483,8 +484,8 @@ h1 {
   list-style-type: none;
   width: 44px;
   height: 44px;
-  background-color: var(--color5);
-  border: 2px solid var(--color5);
+  background-color: var(--color9);
+  border: 2px solid var(--color9);
   border-radius: 50%;
   padding-top: 4.5%;
   padding-left: 4.5%;
