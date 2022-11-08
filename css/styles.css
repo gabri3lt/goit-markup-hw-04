@@ -8,6 +8,9 @@
   --color7: #afb1b8;
   --color8: #f5f4fa;
   --color9: rgba(255, 255, 255, 0.1);
+  --shadow1: rgba(0, 0, 0, 0.1);
+  --shadow2: rgba(0, 0, 0, 0.08);
+  --shadow3: rgba(0, 0, 0, 0.12);
 }
 
 html {
@@ -75,8 +78,7 @@ h1 {
   max-width: 200px;
   margin-right: 33%;
   color: var(--color2);
-  text-shadow: 0px 4px 4px var(--color2);
-  /* margin-left: 215px; */
+  text-shadow: 0px 4px 4px var(--color9);
 }
 
 .studio:visited,
@@ -156,11 +158,7 @@ h1 {
   width: 121px;
   height: 38px;
 
-  background: var(--color3);
-  /* shadow-middle */
-
-  box-shadow: 0px 3px 1px var(--color2), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px var(--color2);
+  background: var(--color8);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -199,8 +197,8 @@ h1 {
 .click:focus {
   background-color: var(--color4);
   color: var(--color3);
-  box-shadow: 0px 3px 1px var(--color2var(--color2)),
-    0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px var(--color2var(--color2));
+  box-shadow: 0px 3px 1px var(--shadow1), 0px 1px 2px var(--shadow2),
+    0px 2px 2px var(--shadow3);
   border-radius: 4px;
 }
 
