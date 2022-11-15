@@ -9,6 +9,7 @@
   --color8: #f5f4fa;
   --color9: rgba(255, 255, 255, 0.1);
   --color10: #eeeeee;
+  --color11: #f5f4fa;
   --shadow1: rgba(0, 0, 0, 0.1);
   --shadow2: rgba(0, 0, 0, 0.08);
   --shadow3: rgba(0, 0, 0, 0.12);
@@ -330,7 +331,7 @@ h1 {
 .team {
   display: flex;
   flex-direction: column;
-  background: var(--color3);
+  background: var(--color11);
 }
 
 .team_inner {
