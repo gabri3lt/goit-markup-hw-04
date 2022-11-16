@@ -470,9 +470,8 @@ h1 {
 
 .foot_wrapper {
   display: flex;
-  padding-left: 100px;
   width: 1200px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .heading_foot {
